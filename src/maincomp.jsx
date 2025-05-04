@@ -60,7 +60,7 @@ function MainComp() {
 
                 <div className="flex flex-col md:flex-row justify-between items-center gap-12">
                     <div className="text-center space-y-3">
-                        <div className="text-7xl font-extrabold">{Temperature}°C</div>
+                        <div className="text-7xl font-extrabold">{Temperature}°  C</div>
                         <div className="text-2xl font-medium">{cfl(dispc)}</div>
                         <div className="text-white/70 text-lg">{cfl(WeatherDescription)}</div>
                     </div>
@@ -68,11 +68,11 @@ function MainComp() {
                     <div className="grid grid-cols-2 gap-x-16 gap-y-6 text-sm text-white/90">
                         <div>
                             <p className="text-white font-semibold">Max Temperature</p>
-                            <p>{MaxTemperature + 1}°C</p>
+                            <p>{MaxTemperature + 1}° C</p>
                         </div>
                         <div>
                             <p className="text-white font-semibold">Min Temperature</p>
-                            <p>{MinTemperature - 1}°C</p>
+                            <p>{MinTemperature - 1}° C</p>
                         </div>
                         <div>
                             <p className="text-white font-semibold">Humidity</p>
